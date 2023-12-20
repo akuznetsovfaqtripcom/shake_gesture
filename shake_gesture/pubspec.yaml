@@ -20,7 +20,10 @@ dependencies:
   flutter:
     sdk: flutter
   shake_gesture_android:
-    path: ../shake_gesture_android
+    git:
+      url: https://github.com/akuznetsovfaqtripcom/shake_gesture.git
+      path: shake_gesture_android
+      ref: main
   shake_gesture_ios: ^0.1.1
   shake_gesture_platform_interface: ^0.1.1
 
